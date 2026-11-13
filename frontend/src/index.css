@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  
+  --color-gold-300: #F0DFC0;
+  --color-gold-400: #D8B772;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #A8833B;
+  --color-forest-950: #08150E;
+  --color-forest-900: #0E2218;
+  --color-forest-800: #153324;
+  --color-forest-700: #1D4430;
+  --color-cream-50: #FCFAF6;
+  --color-cream-100: #F7F4EC;
+  --color-cream-200: #EEE9DC;
+  --color-burgundy-900: #4A0E13;
+  --color-burgundy-800: #6B161D;
+  --color-burgundy-700: #8C1E26;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF8F5;
+  color: #1A211D;
+  overflow-x: hidden;
+}
+
+.font-serif-luxury {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-display-luxury {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+/* Subtle gold foil shine animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F0DFC0 0%, #C5A059 45%, #E5CF8E 60%, #9F7932 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-foil-btn {
+  background: linear-gradient(135deg, #C5A059 0%, #D8B772 50%, #B89246 100%);
+  box-shadow: 0 4px 20px rgba(197, 160, 89, 0.28);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gold-foil-btn:hover {
+  background: linear-gradient(135deg, #D4AF60 0%, #E2C582 50%, #C5A059 100%);
+  box-shadow: 0 8px 30px rgba(197, 160, 89, 0.42);
+  transform: translateY(-1px);
+}
