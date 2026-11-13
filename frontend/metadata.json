@@ -1,6 +1,0 @@
-{
-  "name": "Mixed Jewelry Advent Calendar",
-  "description": "A luxury Christmas-themed e-commerce experience for the Mixed Jewelry Advent Calendar featuring 24 days of necklaces, earrings, rings, and bracelets.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
