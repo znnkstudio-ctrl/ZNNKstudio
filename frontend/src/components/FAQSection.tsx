@@ -104,7 +104,7 @@ export const FAQSection: React.FC = () => {
             Need Additional Assistance?
           </p>
           <p className="text-xs text-[#5D6B62]">
-            Our holiday concierge team is available seven days a week to help with custom orders, corporate gifting, or delivery tracking.
+            Our holiday concierge team is available seven days a week to help with orders.
           </p>
           <a
             href="#footer"
