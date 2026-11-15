@@ -91,21 +91,7 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
 
           {/* Col 3: Shipping Information */}
-          <div className="space-y-3">
-            <h5 className="font-serif-luxury text-sm font-semibold tracking-wider uppercase text-[#FCFAF6]">
-              Shipping Information
-            </h5>
-            <ul className="space-y-2 text-[#9BB1A5]">
-              <li>
-                <span className="text-[#FCFAF6] font-medium block">Tracked Delivery</span>
-                <span className="text-[11px] text-[#7A9587]">Standard & express options at checkout</span>
-              </li>
-              <li>
-                <span className="text-[#FCFAF6] font-medium block">Discreet Packaging</span>
-                <span className="text-[11px] text-[#7A9587]">Concealed gift shipping</span>
-              </li>
-            </ul>
-          </div>
+          
 
           {/* Col 4: Contact */}
           <div className="space-y-3">
